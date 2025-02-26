@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material"
 
 const About  = () => {
-    return <Typography>This About page</Typography>
+    return <Typography variant="h3">This About page</Typography>
 }
 export default About;

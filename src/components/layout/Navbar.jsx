@@ -36,7 +36,7 @@ const Navbar = () => {
         alignItems="center"
         sx={{ padding: "8px 0" }}
       >
-        <Box component={Link} href="/" color="purple">
+        <Box component={Link} href="/" color="success">
           <Image
             src={companyLogo}
             alt="Picture of the author"

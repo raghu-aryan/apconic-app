@@ -3,9 +3,6 @@ body {
   background: linear-gradient(to right, #f9f1ec, #ffffff);
 }
 
-
-
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

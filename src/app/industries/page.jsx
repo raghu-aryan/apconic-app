@@ -11,7 +11,7 @@ export default async function Dashboard() {
   return (
     <List>
       {ourIndustries.map(industry => (
-        <IndustryCard data={industry} />
+        <IndustryCard key={industry.id} data={industry} />
       ))}
     </List>
   )

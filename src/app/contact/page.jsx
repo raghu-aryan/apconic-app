@@ -1,6 +1,9 @@
-import { Typography } from "@mui/material"
+import React from "react";
+import ContactPage from "@/components/view/contact/ContactPage";
 
-const Contact  = () => {
-    return <Typography variant="h3">This Contact page</Typography>
+const Contact = () => {
+  return <React.Fragment>
+    <ContactPage />
+  </React.Fragment>
 }
 export default Contact

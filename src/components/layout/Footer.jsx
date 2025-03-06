@@ -1,4 +1,4 @@
-import { Grid2, Box, Typography, Divider, ListItem } from "@mui/material";
+import { Grid2, Box, Typography, Divider } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,7 +6,7 @@ import companyLogo from '@/static/images/apconic.png';
 import MenuLink from "./MenuLink";
 
 const Footer = () => {
-  return <div>
+  return <Grid2 sx={{ marginTop: 5 }}>
     <Grid2 container>
       <Grid2 size={3}>
         <Box component={Link} href="/" color="success">
@@ -21,14 +21,14 @@ const Footer = () => {
       </Grid2>
       <Grid2 size={7}>
         <Grid2 container spacing={2}>
-          <Grid2 size={4}>
+          <Grid2 size={3}>
             <h3>Quick Links</h3>
             <MenuLink path="/" title="Home" />
             <MenuLink path="/about" title="About Us" />
             <MenuLink path="/industries" title="Industries" />
             <MenuLink path="contact" title="Contact Us" />
           </Grid2>
-          <Grid2 size={4}>
+          <Grid2 size={5}>
             <h3>Products</h3>
             <MenuLink path="/goodstrack-inplant" title="Goodstrack Inplant" />
             <MenuLink path="/goodstrack-iot-platform" title="Goodstrack IoT Platform" />
@@ -50,7 +50,7 @@ const Footer = () => {
     <Grid2 container spacing={5} className="copyright-section">
       <Grid2 offset={3} size={6}>© 2025 Apconic | All Rights Reserved | Powered by <Link href="/">Apconic</Link></Grid2>
     </Grid2>
-  </div>;
+  </Grid2>;
 }
 
 export default Footer;

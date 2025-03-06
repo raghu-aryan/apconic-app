@@ -8,3 +8,16 @@ body {
     color-scheme: dark;
   }
 }
+
+.office {
+  border: chartreuse 1px solid;
+}
+
+.office-image {
+  justify-content: center;
+  align-content: center;
+}
+
+.team {
+  background-color: rgb(232, 215, 194);
+}
